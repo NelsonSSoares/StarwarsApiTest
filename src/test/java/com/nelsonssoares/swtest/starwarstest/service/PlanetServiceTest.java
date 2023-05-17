@@ -60,6 +60,7 @@ public class PlanetServiceTest {
     }
 
     @Test
+     
     public void getPlanet_ByExistingId_ReturnsPlanet(){
         when(planetRepository.findById(anyLong())).thenReturn(Optional.of(PLANET));
         
@@ -75,6 +76,7 @@ public class PlanetServiceTest {
 
         Optional<Planet> sut = planetService.get(1L);
 
+        
         assertThat(sut).isEmpty();
     }
 

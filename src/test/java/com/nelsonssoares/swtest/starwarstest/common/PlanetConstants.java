@@ -1,3 +1,4 @@
+
 package com.nelsonssoares.swtest.starwarstest.common;
 
 import com.nelsonssoares.swtest.starwarstest.domain.Planet;
